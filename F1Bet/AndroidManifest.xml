@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.f1bet"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.f1bet.IniciActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.f1bet.RegistreActivity"
+            android:label="@string/registre" >
+        </activity>
+        <activity
+            android:name="com.example.f1bet.GPListActivity"
+            android:label="@string/title_gp_list" >
+        </activity>
+        <activity
+            android:name="com.example.f1bet.GPDetailActivity"
+            android:label="@string/gp"
+            android:parentActivityName=".GPListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GPListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.f1bet.ApostaActivity"
+            android:label="@string/aposta" >
+        </activity>
+        <activity
+            android:name="com.example.f1bet.InfoActivity"
+            android:label="@string/informacio_label" >
+        </activity>
+        <activity
+            android:name="com.example.f1bet.ConsultaApostaActivity"
+            android:label="@string/title_activity_consulta_aposta" >
+        </activity>
+    </application>
+
+</manifest>

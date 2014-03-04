@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">F1Bet</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_info">Info</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nom">Nom:</string>
+    <string name="correu">Correu:</string>
+    <string name="participar">Participar!</string>
+    <string name="hintCorreu">exemple@gmail.com</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_gp">GPActivity</string>
+    <string name="title_gp_list">GPs</string>
+    <string name="title_gp_detail">GP Detail</string>
+    <string name="password">Contrasenya:</string>
+    <string name="registrar">Registrar-se</string>
+    <string name="apostar">Aposta!</string>
+    <string name="title_activity_aposta">ApostaActivity</string>
+    <string name="posicio1">"1ª Posició:    "</string>
+    <string name="posicio2">"2ª Posició:    "</string>
+    <string name="posicio3">"3ª Posició:    "</string>
+    <string name="posicio4">"4ª Posició:    "</string>
+    <string name="posicio5">"5ª Posició:    "</string>
+    <string name="volta">Mes</string>
+    <string name="voltarapida">Volta Rápida:</string>
+    <string name="enviar">"Enviar Aposta "</string>
+
+    <string-array name="pilots">
+        <item>Sebastian Vettel</item>
+        <item>Daniel Ricciardo</item>
+        <item>Lewis Hamilton</item>
+        <item>Nico Rosberg</item>
+        <item>Fernando Alonso</item>
+        <item>Kimi Räikkönen</item>
+        <item>Romain Grosjean </item>
+        <item>Pastor Maldonado</item>
+        <item>Felipe Massa</item>
+        <item>Valtteri Bottas</item>
+        <item>Jenson Button</item>
+        <item>Kevin Magnussen</item>
+        <item>Nico Hülkenberg</item>
+        <item>Sergio Pérez</item>
+        <item>Adrian Sutil</item>
+        <item>Esteban Gutiérrez</item>
+        <item>Jean-Éric Vergne</item>
+        <item>Daniil Kvyat</item>
+        <item>Jules Bianchi</item>
+        <item>Max Chilton</item>
+        <item>Kamui Kobayashi</item>
+        <item>Marcus Ericsson</item>
+    </string-array>
+
+    <string name="registre">Registre</string>
+    <string name="gp">Circuit</string>
+    <string name="aposta">Aposta</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="informacio">Aquesta aplicació te com a objectiu realitzar una petita competició entre els participants i demostrar qui entén més sobre F1 (o qui te més sort). El guanyador no obté cap premi, només el respecte dels companys.</string>
+    <string name="objectiu">Objectiu de la aplicació:</string>
+    <string name="versio">Versió 0.1 (No criticar)</string>
+    <string name="informacio_label">Informació</string>
+    <string name="title_activity_consulta_aposta">ConsultaApostaActivity</string>
+    <string name="eliminar">Eliminar Aposta</string>
+
+</resources>
